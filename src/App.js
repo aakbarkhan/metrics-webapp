@@ -1,16 +1,15 @@
-import logo from './logo.svg';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Nav from './components/Navbar';
+import Home from './components/main';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Hello! this is cool</p>
-        <h2>Helloo</h2>
-      </header>
-    </div>
-  );
-}
+const App = () => (
+  <BrowserRouter>
+    <Nav />
+    <Routes>
+      <Route exact path="/" element={<Home />} />
+    </Routes>
+  </BrowserRouter>
+);
 
 export default App;
