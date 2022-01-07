@@ -1,9 +1,13 @@
 // import React, { useSelector } from 'react';
 // import { useDispatch } from 'react-redux';
+// import { getCountryRegion } from '../redux/actions/fetchapi';
 // import { createReserve } from '../redux/actions/rocket';
+// import Details from './details';
 
 const Country = (props) => {
   const country = props;
+  // const dispatch = useDispatch();
+
   //   console.log(country, 'props');
   // const dispatch = useDispatch();
   // const { reserve } = rocket.rock;
@@ -12,11 +16,28 @@ const Country = (props) => {
   //     const setReserve = (() => ({ ...rocket.rock, reserve: toggle }));
   //     dispatch(createReserve(setReserve()));
   //   };
+  // const todayDate = new Date().toISOString().slice(0, 10);
+  // const handleCountry = () => {
+  //   const hello = document.getElementById(`${country.country}`).innerText;
+  //   const num = document.getElementById('date').value;
+  //   const baseUrldate = `https://api.covid19tracking.narrativa.com/api/${num}/country/${hello}`;
+  //   const api = () => async () => {
+  //     const request = await fetch(baseUrldate);
+  //     const response = await request.json();
+  //     const data = response.dates[num].countries[hello];
+  //     const entries = Object.entries(data);
+  //     dispatch(getCountryRegion(entries));
+  //     console.log(entries, 'usestate dat');
+  //   };
+  //   dispatch(api());
+  //   // console.log(baseUrldate, 'call the region');
+  // };
   return (
     <div className="wrapper">
-      <h1>{country.country}</h1>
+      <button type="button" href="/region" id={country.country}>{country.country}</button>
+      <a href="/details">Click for Details</a>
       <p>
-        Today-Confirmed:
+        Total-Confirmed:
         {country.links.today_confirmed}
       </p>
       <p>
@@ -47,6 +68,7 @@ const Country = (props) => {
         today Recovered:
         {country.links.today_recovered}
       </p>
+      {/* <Details country={country} /> */}
     </div>
   );
 };

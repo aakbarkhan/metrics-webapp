@@ -5,6 +5,8 @@ const Nav = () => (
     <nav className="same">
       <ul className="nav-link">
         <NavLink activeclassname="selected" to="/">Home</NavLink>
+        {/* <NavLink activeclassname="selected" to="/region">Region</NavLink> */}
+
       </ul>
     </nav>
   </div>

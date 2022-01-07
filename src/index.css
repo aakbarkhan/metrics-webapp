@@ -4,12 +4,25 @@ body {
 }
 
 .title {
-  /* display: flex; */
-  background-color: #f15792;
+  background-color: #96cac1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .wrapper {
-  width: 100%;
   text-align: center;
+  margin: 3px 3px;
+  border: 1px solid black;
+}
+
+/* .wrapper:nth-child(even) {
+  float: right;
+} */
+
+/* .wrapper:nth-child(odd) {
+  float: left;
+} */
+
+.region {
   border: 1px solid black;
 }
