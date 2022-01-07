@@ -2,7 +2,7 @@
 // import { useDispatch } from 'react-redux';
 // import { getCountryRegion } from '../redux/actions/fetchapi';
 // import { createReserve } from '../redux/actions/rocket';
-// import Details from './details';
+import Details from './details';
 
 const Country = (props) => {
   const country = props;
@@ -40,7 +40,7 @@ const Country = (props) => {
         Total-Confirmed:
         {country.links.today_confirmed}
       </p>
-      <p>
+      {/* <p>
         Today deaths:
         {country.links.today_deaths}
       </p>
@@ -63,12 +63,12 @@ const Country = (props) => {
       <p>
         today_new_opencase:
         {country.links.today_open_cases}
-      </p>
+      </p> */}
       <p>
         today Recovered:
         {country.links.today_recovered}
       </p>
-      {/* <Details country={country} /> */}
+      <Details country={country} />
     </div>
   );
 };
