@@ -33,12 +33,13 @@ const Home = () => {
   return (
     <div>
       <h1>
-        Date:
         {todayDate}
       </h1>
       <form>
         <input type="date" id="date" format="YYYY-MM-DD" />
-        <button onClick={handleSub} type="button">Submit</button>
+        <button id="sub" onClick={handleSub} type="button">
+          CLICK!
+        </button>
       </form>
       <h1>Today&apos;s Covid details in Countries</h1>
       <div className="title">

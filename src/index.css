@@ -1,28 +1,112 @@
 body {
-  margin: 0;
+  margin: 0 auto;
+  padding: 10px 15px;
   font-family: sans-serif;
 }
 
 .title {
-  background-color: #96cac1;
   display: grid;
+  width: 90%;
+  margin: 0 auto;
   grid-template-columns: 1fr 1fr;
 }
 
-.wrapper {
-  text-align: center;
-  margin: 3px 3px;
-  border: 1px solid black;
+.btn {
+  border-radius: 5px;
+  font-size: 20px;
+  border: none;
+  color: #5c6362;
+  background-color: #96cac1;
 }
 
-/* .wrapper:nth-child(even) {
-  float: right;
-} */
+button:hover,
+button:focus {
+  outline: none;
+}
 
-/* .wrapper:nth-child(odd) {
-  float: left;
-} */
+h1 {
+  text-align: center;
+}
 
-.region {
-  border: 1px solid black;
+.btn-head {
+  display: flex;
+  margin-top: 5px;
+  padding: 2px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrapper {
+  background-color: #96cac1;
+  text-align: center;
+  margin: 16px 29px;
+  border: 1px solid rgb(131, 123, 123);
+  border-radius: 10px;
+  box-shadow: rgb(38, 57, 77) 0 20px 30px -10px;
+  text-transform: capitalize;
+  text-transform: uppercase;
+}
+
+.cou {
+  margin: 0 auto;
+  padding: 4px 5px;
+}
+
+.details {
+  display: flex;
+  justify-content: center;
+}
+
+.info {
+  width: 80%;
+  padding: 3px;
+  /* text-align: center; */
+  border: 1px solid rgb(172, 167, 167);
+  text-transform: capitalize;
+  text-transform: uppercase;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.region,
+.contry-div {
+  border: 1px solid rgb(187, 179, 179);
+  box-shadow: rgba(0, 0, 0, 0.17) 0 -23px 25px 0 inset, rgba(0, 0, 0, 0.15) 0 -36px 30px 0 inset, rgba(0, 0, 0, 0.1) 0 -79px 40px 0 inset, rgba(0, 0, 0, 0.06) 0 2px 1px, rgba(0, 0, 0, 0.09) 0 4px 2px, rgba(0, 0, 0, 0.09) 0 8px 4px, rgba(0, 0, 0, 0.09) 0 16px 8px, rgba(0, 0, 0, 0.09) 0 32px 16px;
+}
+
+.fun {
+  display: inline;
+}
+
+b {
+  margin: 2px;
+  color: #626867;
+}
+
+.details-div {
+  padding-top: 10px;
+  text-align: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0 18px 36px -18px inset;
+}
+
+form {
+  text-align: center;
+}
+
+#date {
+  margin-right: 5px;
+  height: 27px;
+}
+
+#sub {
+  height: 30px;
+}
+
+.click-link {
+  text-decoration: rgb(150, 177, 168);
+  color: #565a59;
+  padding-rigth: 5px;
+}
+
+.click-link:hover {
+  color: rgb(167, 54, 54);
 }
