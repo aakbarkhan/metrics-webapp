@@ -60,11 +60,10 @@ h1 {
 .info {
   width: 80%;
   padding: 3px;
-  /* text-align: center; */
   border: 1px solid rgb(172, 167, 167);
   text-transform: capitalize;
   text-transform: uppercase;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0 50px 100px -20px, rgba(0, 0, 0, 0.3) 0 30px 60px -30px;
 }
 
 .region,
@@ -104,7 +103,6 @@ form {
 .click-link {
   text-decoration: rgb(150, 177, 168);
   color: #565a59;
-  padding-rigth: 5px;
 }
 
 .click-link:hover {
