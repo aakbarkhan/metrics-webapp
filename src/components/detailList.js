@@ -10,7 +10,6 @@ const DetailsList = () => {
   useEffect(() => {
     if (dataCovid.country.length === 0) {
       dispatch(getCovidFromApi());
-      console.log('hello api', dataCovid.covid);
     }
   }, []);
   const todayDate = new Date().toISOString().slice(0, 10);
@@ -23,7 +22,6 @@ const DetailsList = () => {
       const request = await fetch(baseUrldate);
       const response = await request.json();
       const data = response.dates[todayDate].countries[hello];
-      console.log(data, 'usestate dat');
       dispatch(getCountry(data));
     };
     dispatch(api());

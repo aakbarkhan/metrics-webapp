@@ -9,7 +9,6 @@ const Home = () => {
   const dataCovid = useSelector((state) => state.covidReducer);
   useEffect(() => {
     if (dataCovid.covid) {
-      console.log('hello api', dataCovid.covid);
       dispatch(getCovidFromApi());
     }
   }, []);
@@ -22,10 +21,8 @@ const Home = () => {
       const data = response.dates[num].countries;
       const entries = Object.entries(data);
       dispatch(getCovid(entries));
-      console.log(entries, 'usestate dat');
     };
     dispatch(api());
-    console.log(baseUrldate, 'clickkkbaseurl date');
   };
   return (
     <div>

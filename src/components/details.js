@@ -8,7 +8,6 @@ import { useParams } from 'react-router-dom';
 const Details = (props) => {
   const cou = props;
   const country = useParams();
-  console.log(cou);
   return (
     <div className="details">
       <div className="info">
