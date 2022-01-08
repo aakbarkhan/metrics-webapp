@@ -2,13 +2,10 @@ import { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { useParams } from 'react-router-dom';
 import { getCovidFromApi, getCountry } from '../redux/actions/fetchapi';
-
 import Details from './details';
 
-// const todayDate = new Date().toISOString().slice(0, 10);
 const DetailsList = () => {
   const dispatch = useDispatch();
-  //   console.log(country.country, 'countryName');
   const dataCovid = useSelector((state) => state.covidReducer);
   useEffect(() => {
     if (dataCovid.country.length === 0) {
@@ -27,12 +24,9 @@ const DetailsList = () => {
       const response = await request.json();
       const data = response.dates[todayDate].countries[hello];
       console.log(data, 'usestate dat');
-
-      // const entries = Object.entries(data);
       dispatch(getCountry(data));
     };
     dispatch(api());
-    // console.log(baseUrldate, 'call the region');
   };
   if (dataCovid.country.length === 0) {
     handleCountry();

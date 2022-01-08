@@ -7,15 +7,12 @@ const todayDate = new Date().toISOString().slice(0, 10);
 const Home = () => {
   const dispatch = useDispatch();
   const dataCovid = useSelector((state) => state.covidReducer);
-  // console.log(dataCovid, 'data');
   useEffect(() => {
     if (dataCovid.covid) {
       console.log('hello api', dataCovid.covid);
       dispatch(getCovidFromApi());
     }
   }, []);
-
-  // const [date, setDate] = useState(todayDate);
   const handleSub = () => {
     const num = document.getElementById('date').value;
     const baseUrldate = `https://api.covid19tracking.narrativa.com/api/${num}`;

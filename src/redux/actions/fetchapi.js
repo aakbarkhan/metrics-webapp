@@ -22,10 +22,8 @@ export const getCountry = (payload) => ({
 export const getCovidFromApi = () => async (dispatch) => {
   const request = await fetch(baseUrldate);
   const response = await request.json();
-  // console.log(response.dates[todayDate].countries, 'choose');
   const data = response.dates[todayDate].countries;
   const entries = Object.entries(data);
-  // console.log(entries, 'entries');
   dispatch(getCovid(entries));
 };
 
