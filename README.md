@@ -4,7 +4,7 @@
 > This project was built using react redux to fetch 
 > covid and country's details from exteranal APIs
 
-![screenshot](./image.PNG)
+![screenshot](./image.png)
 
 
 
@@ -15,7 +15,7 @@
 - React test libraries
 
 ## Live Link 
-[LINK Live](https://atoz-space.netlify.app/)
+[LINK Live]()
 
 ## Getting Started
 
