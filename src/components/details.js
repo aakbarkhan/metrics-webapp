@@ -1,9 +1,4 @@
 import { useParams } from 'react-router-dom';
-// import { useDispatch } from 'react-redux';
-// import { useEffect } from 'react';
-// import { useSelector, useDispatch } from 'react-redux';
-// import { getCountry, getCovidFromApi } from '../redux/actions/fetchapi';
-// import { getCovidFromApi } from '../redux/actions/fetchapi';
 
 const Details = (props) => {
   const cou = props;
