@@ -15,14 +15,19 @@ const Home = () => {
   const handleSub = () => {
     const num = document.getElementById('date').value;
     const baseUrldate = `https://api.covid19tracking.narrativa.com/api/${num}`;
-    const api = () => async () => {
-      const request = await fetch(baseUrldate);
-      const response = await request.json();
-      const data = response.dates[num].countries;
-      const entries = Object.entries(data);
-      dispatch(getCovid(entries));
-    };
-    dispatch(api());
+    if (num > todayDate) {
+      alert('Please, provide a valid date!');
+      document.getElementById('date').value = '';
+    } else {
+      const api = () => async () => {
+        const request = await fetch(baseUrldate);
+        const response = await request.json();
+        const data = response.dates[num].countries;
+        const entries = Object.entries(data);
+        dispatch(getCovid(entries));
+      };
+      dispatch(api());
+    }
   };
   return (
     <div>
@@ -35,6 +40,9 @@ const Home = () => {
           CLICK!
         </button>
       </form>
+      <p className="note">
+        <small>(NB: Please select date i.e. less then today or today)</small>
+      </p>
       <h1>Today&apos;s Covid details in Countries</h1>
       <div className="title">
         {dataCovid.covid.map((ele) => (

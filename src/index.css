@@ -108,3 +108,7 @@ form {
 .click-link:hover {
   color: rgb(167, 54, 54);
 }
+
+.note {
+  text-align: center;
+}
