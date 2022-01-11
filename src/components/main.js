@@ -40,9 +40,6 @@ const Home = () => {
           CLICK!
         </button>
       </form>
-      <p className="note">
-        <small>(NB: Please select date i.e. less then today or today)</small>
-      </p>
       <h1>Today&apos;s Covid details in Countries</h1>
       <div className="title">
         {dataCovid.covid.map((ele) => (

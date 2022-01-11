@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Renders test Renders App 1`] = `
+Array [
+  <div
+    className="nav"
+  >
+    <nav
+      className="same"
+    >
+      <ul
+        className="nav-link"
+      >
+        <a
+          activeclassname="selected"
+          aria-current="page"
+          className="active"
+          href="/"
+          onClick={[Function]}
+        >
+          Home
+        </a>
+      </ul>
+    </nav>
+  </div>,
+  <div>
+    <h1>
+      2022-01-11
+    </h1>
+    <form>
+      <input
+        format="YYYY-MM-DD"
+        id="date"
+        type="date"
+      />
+      <button
+        id="sub"
+        onClick={[Function]}
+        type="button"
+      >
+        CLICK!
+      </button>
+    </form>
+    <h1>
+      Today's Covid details in Countries
+    </h1>
+    <div
+      className="title"
+    />
+  </div>,
+]
+`;
