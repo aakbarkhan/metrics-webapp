@@ -16,7 +16,7 @@
 
 ## Live Link 
 [LINK LIVE](https://coviid.netlify.app/)
-
+[LOOM LINK](https://www.loom.com/share/f56ebaafdfce49049498580222b4a38b)
 ## Getting Started
 
 **To get a copy of this repo into your local machine run the following command:**

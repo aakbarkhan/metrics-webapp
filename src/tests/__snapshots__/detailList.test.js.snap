@@ -104,7 +104,9 @@ exports[`Country Component test Renders Deatils 1`] = `
             </b>
           </p>
           <p>
-            yesterday_deaths:
+            <b>
+              yesterday_deaths:
+            </b>
           </p>
           <p>
             <b>
@@ -113,7 +115,7 @@ exports[`Country Component test Renders Deatils 1`] = `
           </p>
           <p>
             <b>
-              yesterday_recovered
+              yesterday_recovered:
             </b>
           </p>
         </div>

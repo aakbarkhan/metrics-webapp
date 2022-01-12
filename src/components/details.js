@@ -102,8 +102,10 @@ const Details = (props) => {
             </b>
           </p>
           <p>
-            yesterday_deaths:
-            {cou.data.yesterday_deaths}
+            <b>
+              yesterday_deaths:
+              {cou.data.yesterday_deaths}
+            </b>
           </p>
           <p>
             <b>
@@ -113,7 +115,7 @@ const Details = (props) => {
           </p>
           <p>
             <b>
-              yesterday_recovered
+              yesterday_recovered:
               {cou.data.yesterday_recovered}
             </b>
           </p>
