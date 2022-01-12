@@ -15,7 +15,7 @@
 - React test libraries
 
 ## Live Link 
-[LINK Live](https://cranky-dijkstra-2b5c30.netlify.app/)
+[LINK LIVE](https://coviid.netlify.app/)
 
 ## Getting Started
 
@@ -43,7 +43,7 @@ Feel free to check the [issues page](../../issues/).
 ## Acknowledgments
 
 - This project is the Microverse's third module's capstone project
-- Thanks to Nelson Sakwa who is author of the original design.
+- Thanks to [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) who is author of the original design.
 
 ## Show your support
 
