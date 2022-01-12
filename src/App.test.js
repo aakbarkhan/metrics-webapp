@@ -6,7 +6,7 @@ import store from './redux/store/configureStore';
 
 afterEach(() => cleanup());
 
-test('renders Rockets', () => {
+test('renders countries', () => {
   render(
     <Provider store={store}>
       <App />

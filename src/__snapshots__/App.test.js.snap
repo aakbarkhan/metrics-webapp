@@ -18,14 +18,14 @@ Array [
           href="/"
           onClick={[Function]}
         >
-          Home
+          &lt;
         </a>
       </ul>
     </nav>
   </div>,
   <div>
     <h1>
-      2022-01-11
+      2022-01-12
     </h1>
     <form>
       <input

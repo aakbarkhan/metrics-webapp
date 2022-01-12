@@ -15,7 +15,7 @@ body {
   border-radius: 5px;
   font-size: 20px;
   border: none;
-  color: #5c6362;
+  color: #343837;
   background-color: #96cac1;
 }
 
@@ -102,13 +102,28 @@ form {
 
 .click-link {
   text-decoration: rgb(150, 177, 168);
-  color: #565a59;
+  color: #343837;
+  font-size: 20px;
+  padding-right: 8px;
 }
 
 .click-link:hover {
-  color: rgb(167, 54, 54);
+  color: rgb(211, 6, 6);
+  transform: scale(1.1);
 }
 
 .note {
   text-align: center;
+}
+
+.active {
+  padding: 2px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bolder;
 }

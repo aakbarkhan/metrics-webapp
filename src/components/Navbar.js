@@ -4,8 +4,7 @@ const Nav = () => (
   <div className="nav">
     <nav className="same">
       <ul className="nav-link">
-        <NavLink activeclassname="selected" to="/">Home</NavLink>
-        {/* <NavLink activeclassname="selected" to="/region">Region</NavLink> */}
+        <NavLink activeclassname="selected" to="/">&lt;</NavLink>
 
       </ul>
     </nav>

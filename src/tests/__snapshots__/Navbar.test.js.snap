@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar Component Test Renders NavBar 1`] = `
+<div
+  className="nav"
+>
+  <nav
+    className="same"
+  >
+    <ul
+      className="nav-link"
+    >
+      <a
+        activeclassname="selected"
+        aria-current="page"
+        className="active"
+        href="#/"
+        onClick={[Function]}
+      >
+        &lt;
+      </a>
+    </ul>
+  </nav>
+</div>
+`;

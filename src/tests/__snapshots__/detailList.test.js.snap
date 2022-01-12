@@ -1,0 +1,124 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Country Component test Renders Deatils 1`] = `
+<div>
+  <h1>
+    2022-01-12
+  </h1>
+  <h1>
+    Today's Covid details in Country
+  </h1>
+  <div
+    className="cou"
+  >
+    <div
+      className="details"
+    >
+      <div
+        className="info"
+      >
+        <div
+          className="contry-div"
+        >
+          <h1>
+            Country:
+          </h1>
+        </div>
+        <div
+          className="details-div"
+        >
+          <p>
+            <b>
+              Date:
+            </b>
+            <b />
+          </p>
+          <p>
+            <b>
+              SOURCE:
+            </b>
+          </p>
+          <p>
+            <b>
+              TOTAL CONFIRMED:
+            </b>
+          </p>
+          <p>
+            <b>
+              TOTAL DEATH:
+            </b>
+          </p>
+          <p>
+            <b>
+              CONFIRMED:
+            </b>
+          </p>
+          <p>
+            <b>
+              TODAY DEATH:
+            </b>
+          </p>
+          <p>
+            <b>
+              today_new_open_cases:
+            </b>
+          </p>
+          <p>
+            <b>
+              today_new_recovered:
+            </b>
+          </p>
+          <p>
+            <b>
+              today_open_cases:
+            </b>
+          </p>
+          <p>
+            <b>
+              today_recovered:
+            </b>
+          </p>
+          <p>
+            <b>
+              today_vs_yesterday_confirmed:
+            </b>
+          </p>
+          <p>
+            <b>
+              today_vs_yesterday_deaths:
+            </b>
+          </p>
+          <p>
+            <b>
+              today_vs_yesterday_open_cases
+            </b>
+          </p>
+          <p>
+            <b>
+              today_vs_yesterday_recovered
+            </b>
+          </p>
+          <p>
+            <b>
+              yesterday_confirmed:
+            </b>
+          </p>
+          <p>
+            yesterday_deaths:
+          </p>
+          <p>
+            <b>
+              yesterday_open_cases:
+            </b>
+          </p>
+          <p>
+            <b>
+              yesterday_recovered
+            </b>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

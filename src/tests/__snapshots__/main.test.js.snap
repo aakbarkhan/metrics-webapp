@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Main Component test Renders main Page 1`] = `
+<div>
+  <h1>
+    2022-01-12
+  </h1>
+  <form>
+    <input
+      format="YYYY-MM-DD"
+      id="date"
+      type="date"
+    />
+    <button
+      id="sub"
+      onClick={[Function]}
+      type="button"
+    >
+      CLICK!
+    </button>
+  </form>
+  <h1>
+    Today's Covid details in Countries
+  </h1>
+  <div
+    className="title"
+  />
+</div>
+`;
