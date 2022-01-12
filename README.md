@@ -40,6 +40,11 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
+## Acknowledgments
+
+- This project is the Microverse's third module's capstone project
+- Thanks to Nelson Sakwa who is author of the original design.
+
 ## Show your support
 
 Give a ⭐️ if you like this project!
