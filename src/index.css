@@ -170,6 +170,10 @@ a {
   color: #f1faf8;
 }
 
+.icon {
+  padding-right: 7px;
+}
+
 .dates,
 .date-head {
   padding: 0;

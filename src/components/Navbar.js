@@ -17,7 +17,7 @@ const Nav = () => (
         </nav>
         <p>Today&apos;s Covid details.</p>
         <nav className="icons">
-          <BsFillMicFill />
+          <BsFillMicFill className="icon" />
           <AiFillSetting />
         </nav>
 
