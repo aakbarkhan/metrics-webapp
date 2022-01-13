@@ -51,6 +51,7 @@ Array [
           className="icons"
         >
           <svg
+            className="icon"
             fill="currentColor"
             height="1em"
             stroke="currentColor"

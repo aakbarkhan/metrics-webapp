@@ -50,6 +50,7 @@ exports[`Navbar Component Test Renders NavBar 1`] = `
         className="icons"
       >
         <svg
+          className="icon"
           fill="currentColor"
           height="1em"
           stroke="currentColor"
