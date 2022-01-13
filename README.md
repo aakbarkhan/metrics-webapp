@@ -1,18 +1,32 @@
 
-#  Covid app
+#  REACT-REDUX-CAPSTONE
 
-> This project was built using react redux to fetch 
-> covid and country's details from exteranal APIs
+This React capstone project is about building a mobile web application to check a list of metrics (numeric values) that you will create making use of React and Redux.
 
-![screenshot](./image.png)
+We will select an API that provides numeric data about a topic that you like and then build the webapp around it. The webapp will have several pages:
+- one page with a list of items that could be filtered by some parameters; This page should be your homepage.
+- one page for the item details;
 
+## Screenshots
 
+-Home Page 
+![screenshot](./home.png)
+
+-Details Page
+![screenshot](detail.png)
 
 ## Built With
 
 - React 
 - React redux
+- JS
 - React test libraries
+
+## Technologies used
+
+- Github
+- Gitflow
+
 
 ## Live Link 
 [LINK LIVE](https://coviid.netlify.app/)
@@ -23,9 +37,32 @@
 ```
 git clone  git@github.com:aakbarkhan/metrics-webapp.git
 cd matrices-app
-in visual studio code you can click the go live button to view it live in the browser.
+In visual studio code you can click the go live button to view it live in the browser.
 ```
+- Or press the green Code button in the upper right corner and choose to download from the Download ZIP link.
 
+
+## Setup
+
+- Add linters from linters-config
+
+- Set up a new project Create React App (CRA).
+
+- Create a React application is using Create React App (CRA) and following the instructions in this [guide](https://reactjs.org/docs/create-a-new-react-app.html#create-react-app)
+  
+  
+  ```
+npx create-react-app react-redux-capstone
+cd react-redux-capstone
+npm start
+
+  ```
+  - Add React Redux
+ ```
+ npm install react-redux
+
+ ```
+-Add React Router [React Router](https://v5.reactrouter.com/web/guides/quick-start)
 
 ## Author
 
