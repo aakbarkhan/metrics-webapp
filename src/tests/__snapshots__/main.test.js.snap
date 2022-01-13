@@ -2,9 +2,6 @@
 
 exports[`Main Component test Renders main Page 1`] = `
 <div>
-  <h1>
-    2022-01-12
-  </h1>
   <form>
     <input
       format="YYYY-MM-DD"
@@ -18,12 +15,19 @@ exports[`Main Component test Renders main Page 1`] = `
     >
       CLICK!
     </button>
+    <br />
+    <input
+      className="search"
+      onChange={[Function]}
+      placeholder="SEARCH BY COUNTRY NAME"
+      type="text"
+      value=""
+    />
   </form>
-  <h1>
-    Today's Covid details in Countries
-  </h1>
   <div
     className="title"
-  />
+  >
+     
+  </div>
 </div>
 `;

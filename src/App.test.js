@@ -12,7 +12,7 @@ test('renders countries', () => {
       <App />
     </Provider>,
   );
-  const linkElement = screen.getByText(/Today's Covid details in Countries/i);
+  const linkElement = screen.getByText(/Today's Covid details/i);
   expect(linkElement).toBeInTheDocument();
 });
 

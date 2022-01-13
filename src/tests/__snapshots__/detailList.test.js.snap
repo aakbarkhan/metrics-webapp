@@ -2,12 +2,6 @@
 
 exports[`Country Component test Renders Deatils 1`] = `
 <div>
-  <h1>
-    2022-01-12
-  </h1>
-  <h1>
-    Today's Covid details in Country
-  </h1>
   <div
     className="cou"
   >
@@ -15,109 +9,213 @@ exports[`Country Component test Renders Deatils 1`] = `
       className="details"
     >
       <div
+        className="contry-div"
+      >
+        <h1>
+          Country:
+        </h1>
+      </div>
+      <div
         className="info"
       >
         <div
-          className="contry-div"
-        >
-          <h1>
-            Country:
-          </h1>
-        </div>
-        <div
           className="details-div"
         >
-          <p>
-            <b>
-              Date:
-            </b>
-            <b />
-          </p>
-          <p>
-            <b>
-              SOURCE:
-            </b>
-          </p>
-          <p>
-            <b>
-              TOTAL CONFIRMED:
-            </b>
-          </p>
-          <p>
-            <b>
-              TOTAL DEATH:
-            </b>
-          </p>
-          <p>
-            <b>
+          <div
+            className="dates"
+          >
+            <h2
+              className="date-head"
+            >
+              DETAILS
+            </h2>
+            <p>
+              <b>
+                Date:
+              </b>
+              <b />
+            </p>
+          </div>
+          <div
+            className="main-wrap"
+          >
+            <div
+              className="sor"
+            >
+              <p
+                className="dat-type"
+              >
+                SOURCE:
+              </p>
+              <b
+                className="dat-type"
+              />
+            </div>
+            <div
+              className="sor"
+            >
+              <p
+                className="dat-type"
+              >
+                TOTAL CONFIRMED:
+              </p>
+              <b
+                className="dat-type"
+              />
+            </div>
+            <div
+              className="sor"
+            >
+              <p
+                className="dat-type"
+              >
+                TOTAL DEATH:
+              </p>
+              <b
+                className="dat-type"
+              />
+            </div>
+          </div>
+          <div
+            className="sor"
+          >
+            <p>
               CONFIRMED:
-            </b>
-          </p>
-          <p>
-            <b>
+            </p>
+            <b
+              className="dat-type"
+            />
+          </div>
+          <div
+            className="sor"
+          >
+            <p>
               TODAY DEATH:
-            </b>
-          </p>
-          <p>
-            <b>
+            </p>
+            <b
+              className="dat-type"
+            />
+          </div>
+          <div
+            className="sor"
+          >
+            <p>
               today_new_open_cases:
-            </b>
-          </p>
-          <p>
-            <b>
+            </p>
+            <b
+              className="dat-type"
+            />
+          </div>
+          <div
+            className="sor"
+          >
+            <p>
               today_new_recovered:
-            </b>
-          </p>
-          <p>
-            <b>
+            </p>
+            <b
+              className="dat-type"
+            />
+          </div>
+          <div
+            className="sor"
+          >
+            <p>
               today_open_cases:
-            </b>
-          </p>
-          <p>
-            <b>
+            </p>
+            <b
+              className="dat-type"
+            />
+          </div>
+          <div
+            className="sor"
+          >
+            <p>
               today_recovered:
-            </b>
-          </p>
-          <p>
-            <b>
+            </p>
+            <b
+              className="dat-type"
+            />
+          </div>
+          <div
+            className="sor"
+          >
+            <p>
               today_vs_yesterday_confirmed:
-            </b>
-          </p>
-          <p>
-            <b>
+            </p>
+            <b
+              className="dat-type"
+            />
+          </div>
+          <div
+            className="sor"
+          >
+            <p>
               today_vs_yesterday_deaths:
-            </b>
-          </p>
-          <p>
-            <b>
-              today_vs_yesterday_open_cases
-            </b>
-          </p>
-          <p>
-            <b>
-              today_vs_yesterday_recovered
-            </b>
-          </p>
-          <p>
-            <b>
+            </p>
+            <b
+              className="dat-type"
+            />
+          </div>
+          <div
+            className="sor"
+          >
+            <p>
+              today_vs_yesterday_open_cases:
+            </p>
+            <b
+              className="dat-type"
+            />
+          </div>
+          <div
+            className="sor"
+          >
+            <p>
+              today_vs_yesterday_recovered:
+            </p>
+            <b
+              className="dat-type"
+            />
+          </div>
+          <div
+            className="sor"
+          >
+            <p>
               yesterday_confirmed:
-            </b>
-          </p>
-          <p>
-            <b>
+            </p>
+            <b
+              className="dat-type"
+            />
+          </div>
+          <div
+            className="sor"
+          >
+            <p>
               yesterday_deaths:
-            </b>
-          </p>
-          <p>
-            <b>
+            </p>
+            <b
+              className="dat-type"
+            />
+          </div>
+          <div
+            className="sor"
+          >
+            <p>
               yesterday_open_cases:
-            </b>
-          </p>
-          <p>
-            <b>
+            </p>
+            <b
+              className="dat-type"
+            />
+          </div>
+          <div
+            className="sor"
+          >
+            <p>
               yesterday_recovered:
-            </b>
-          </p>
+            </p>
+            <b
+              className="dat-type"
+            />
+          </div>
         </div>
       </div>
     </div>

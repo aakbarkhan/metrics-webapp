@@ -31,10 +31,6 @@ const DetailsList = () => {
   }
   return (
     <div>
-      <h1>
-        {todayDate}
-      </h1>
-      <h1>Today&apos;s Covid details in Country</h1>
       <div className="cou">
         <Details data={dataCovid.country} />
       </div>

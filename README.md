@@ -27,7 +27,7 @@ in visual studio code you can click the go live button to view it live in the br
 ```
 
 
-## Authors
+## Author
 
 👤 **aakbarkhan**
 

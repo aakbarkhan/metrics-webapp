@@ -1,13 +1,13 @@
+import { FaArrowCircleRight } from 'react-icons/fa';
+
 const Country = (props) => {
   const country = props;
   return (
     <div className="wrapper">
       <div className="btn-head">
-        <button className="btn" type="button" id={country.country}>{country.country}</button>
+        <h1 className="btn" type="button" id={country.country}>{country.country}</h1>
         <a className="click-link" href={country.country}>
-          <>
-            more info
-          </>
+          <FaArrowCircleRight />
         </a>
       </div>
       <p>

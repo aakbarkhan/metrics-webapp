@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import Country from './countrylist';
 import { getCovidFromApi, getCovid } from '../redux/actions/fetchapi';
@@ -29,22 +29,36 @@ const Home = () => {
       dispatch(api());
     }
   };
+  const [value, setValue] = useState('');
+  const inputHandler = (e) => {
+    setValue(e.target.value);
+  };
   return (
     <div>
-      <h1>
-        {todayDate}
-      </h1>
       <form>
         <input type="date" id="date" format="YYYY-MM-DD" />
         <button id="sub" onClick={handleSub} type="button">
           CLICK!
         </button>
+        <br />
+        <input placeholder="SEARCH BY COUNTRY NAME" className="search" type="text" value={value} onChange={inputHandler} />
       </form>
-      <h1>Today&apos;s Covid details in Countries</h1>
       <div className="title">
-        {dataCovid.covid.map((ele) => (
-          <Country key={ele[1].id} country={ele[0]} links={ele[1]} />
-        ))}
+        {' '}
+        {value ? (
+          dataCovid.covid
+            .filter((countryData) => countryData[0]
+              .toLowerCase()
+              .includes(value.toLocaleLowerCase()))
+            .map((country) => (
+              <Country key={country[1].id} country={country[0]} links={country[1]} />
+            ))
+        )
+          : (
+            dataCovid.covid.map((ele) => (
+              <Country key={ele[1].id} country={ele[0]} links={ele[1]} />
+            ))
+          )}
       </div>
     </div>
   );
