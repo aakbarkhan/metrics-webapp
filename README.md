@@ -9,10 +9,12 @@ We will select an API that provides numeric data about a topic that you like and
 
 ## Screenshots
 
--Home Page 
+- Home Page 
+  
 ![screenshot](./home.png)
 
--Details Page
+- Details Page
+  
 ![screenshot](detail.png)
 
 ## Built With
@@ -51,18 +53,20 @@ In visual studio code you can click the go live button to view it live in the br
 - Create a React application is using Create React App (CRA) and following the instructions in this [guide](https://reactjs.org/docs/create-a-new-react-app.html#create-react-app)
   
   
-  ```
+```
 npx create-react-app react-redux-capstone
 cd react-redux-capstone
 npm start
+```
 
-  ```
   - Add React Redux
- ```
+
+```
+ 
  npm install react-redux
 
- ```
--Add React Router [React Router](https://v5.reactrouter.com/web/guides/quick-start)
+```
+- Add React Router [React Router](https://v5.reactrouter.com/web/guides/quick-start)
 
 ## Author
 
