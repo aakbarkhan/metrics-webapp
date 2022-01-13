@@ -1,70 +1,96 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#  REACT-REDUX-CAPSTONE
 
-## Available Scripts
+This React capstone project is about building a mobile web application to check a list of metrics (numeric values) that you will create making use of React and Redux.
 
-In the project directory, you can run:
+We will select an API that provides numeric data about a topic that you like and then build the webapp around it. The webapp will have several pages:
+- one page with a list of items that could be filtered by some parameters; This page should be your homepage.
+- one page for the item details;
 
-### `npm start`
+## Screenshots
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Home Page 
+  
+![screenshot](./home.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Details Page
+  
+![screenshot](detail.png)
 
-### `npm test`
+## Built With
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React 
+- React redux
+- JS
+- React test libraries
 
-### `npm run build`
+## Technologies used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Github
+- Gitflow
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Live Link 
+[LINK LIVE](https://coviid.netlify.app/)
+[LOOM LINK](https://www.loom.com/share/a5ffa81c46d64a61baa132ecad7dfa99)
+## Getting Started
 
-### `npm run eject`
+**To get a copy of this repo into your local machine run the following command:**
+```
+git clone  git@github.com:aakbarkhan/metrics-webapp.git
+cd matrices-app
+In visual studio code you can click the go live button to view it live in the browser.
+```
+- Or press the green Code button in the upper right corner and choose to download from the Download ZIP link.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Setup
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Add linters from linters-config
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Set up a new project Create React App (CRA).
 
-## Learn More
+- Create a React application is using Create React App (CRA) and following the instructions in this [guide](https://reactjs.org/docs/create-a-new-react-app.html#create-react-app)
+  
+  
+```
+npx create-react-app react-redux-capstone
+cd react-redux-capstone
+npm start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+  - Add React Redux
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+ 
+ npm install react-redux
 
-### Code Splitting
+```
+- Add React Router [React Router](https://v5.reactrouter.com/web/guides/quick-start)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Author
 
-### Analyzing the Bundle Size
+👤 **aakbarkhan**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- GitHub: [@aakbarkhan](https://github.com/aakbarkhan)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/akuu-khan)
 
-### Making a Progressive Web App
+## 🤝 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Contributions, issues, and feature requests are welcome!
 
-### Advanced Configuration
+Feel free to check the [issues page](../../issues/).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Acknowledgments
 
-### Deployment
+- This project is the Microverse's third module's capstone project
+- Thanks to [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) who is author of the original design.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Show your support
 
-### `npm run build` fails to minify
+Give a ⭐️ if you like this project!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
