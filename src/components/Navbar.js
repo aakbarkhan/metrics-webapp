@@ -15,7 +15,7 @@ const Nav = () => (
           </NavLink>
           <span>{todayDate}</span>
         </nav>
-        <p>Today&apos;s Covid details.</p>
+        <p>Country&apos;s Covid details.</p>
         <nav className="icons">
           <BsFillMicFill className="icon" />
           <AiFillSetting />

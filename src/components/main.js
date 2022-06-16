@@ -7,7 +7,7 @@ import { getCovidFromApi } from '../redux/actions/fetchapi';
 const Home = () => {
   const dispatch = useDispatch();
   const dataCovid = useSelector((state) => state.covidReducer);
-  console.log(dataCovid, 'datacovid');
+  // console.log(dataCovid, 'datacovid');
   useEffect(() => {
     if (dataCovid) {
       dispatch(getCovidFromApi());
