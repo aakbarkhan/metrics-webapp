@@ -2,6 +2,7 @@ import { FaArrowCircleRight } from 'react-icons/fa';
 
 const Country = (props) => {
   const country = props;
+  // console.log(country.links);
   return (
     <div className="wrapper">
       <div className="btn-head">
@@ -12,11 +13,15 @@ const Country = (props) => {
       </div>
       <p>
         Total-Confirmed:
-        {country.links.today_confirmed}
+        {country.links.All.confirmed}
       </p>
       <p>
-        today Recovered:
-        {country.links.today_recovered}
+        Total Recovered:
+        {country.links.All.recovered}
+      </p>
+      <p>
+        life_expectancy:
+        {country.links.All.life_expectancy}
       </p>
     </div>
   );

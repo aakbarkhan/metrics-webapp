@@ -10,7 +10,7 @@ const Nav = () => (
     <nav className="same">
       <ul className="nav-link">
         <nav className="span-date">
-          <NavLink className="home" activeclassname="selected" to="/">
+          <NavLink href="https://coviid.netlify.app/" className="home" activeclassname="selected" to="/">
             <FaLessThan />
           </NavLink>
           <span>{todayDate}</span>
