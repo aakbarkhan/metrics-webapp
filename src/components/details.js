@@ -1,8 +1,8 @@
 import { useParams } from 'react-router-dom';
 
-const Details = (props) => {
+const Details = () => {
   // const data = props;
-  console.log(props, 'coudata');
+  // console.log(props, 'coudata');
   const country = useParams();
   // if (data.length !== 0) {
   //   console.log(data.length, 'not props');
