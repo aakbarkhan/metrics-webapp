@@ -32,6 +32,7 @@ We will select an API that provides numeric data about a topic that you like and
 
 ## Live Link 
 [LINK LIVE](https://coviid.netlify.app/)
+
 [LOOM LINK](https://www.loom.com/share/a5ffa81c46d64a61baa132ecad7dfa99)
 ## Getting Started
 
