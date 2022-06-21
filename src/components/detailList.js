@@ -35,10 +35,7 @@ const DetailsList = () => {
     <div>
       <div className="cou">
         {/* {console.log(dataCovid.country)} */}
-        <Details
-          country="country"
-          capital_city="capital"
-        />
+        <Details country={dataCovid.country} />
       </div>
     </div>
   );
